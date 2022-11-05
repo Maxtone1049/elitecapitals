@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
 define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','capitalsdb');
+define('DB_USER','u386091986_capuser');
+define('DB_PASS','6vEz3m3*mI');
+define('DB_NAME','u386091986_capitalsdb');
 // Establish database connection.
 try
 {
