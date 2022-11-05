@@ -105,7 +105,7 @@ foreach($results as $row)
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 
-                                <span class="mr-2 d-none d-lg-inline text-white small"><?php echo $row->status?></span>
+                                <span class="mr-2 d-none d-lg-inline text-white small"><?php if($row->status!='NOT ACTIVE'){ echo $row->status}else{echo 'NOT ACTIVE'}?></span>
                                 <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-white "></i>
 
 
