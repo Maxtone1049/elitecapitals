@@ -12,7 +12,7 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
     $trendamount = $_POST['trendamount'];
     $mineamount = $_POST['mineamount'];
 
-    $sql = "UPDATE users SET invest=:refamount, profit=:tmine,bonus=:trendamount, balance=:mineamount WHERE ID=:vid";
+    $sql = "UPDATE users SET invest=:mineamount, profit=:trendamount,bonus=:tmine, balance=:refamount WHERE ID=:vid";
 
     $query = $dbh->prepare($sql);
     $query->bindParam(':refamount', $refamount, PDO::PARAM_STR);
