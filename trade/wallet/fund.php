@@ -160,8 +160,9 @@ if (strlen($_SESSION['obcsuid'] == 0)) {
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <a class="btn btn-primary" href="\dashboard" onclick="event.preventDefault();
-                    document.getElementById('deposit-form').submit();">I've made payment</a>
+                                    <!-- <a class="btn btn-primary" href="\dashboard" onclick="event.preventDefault();
+                    document.getElementById('deposit-form').submit();">I've made payment</a> -->
+                      <a class="btn btn-primary" href="\dashboard">I've made payment</a>
                                     <a href="../dashboard">
                                         <button class="btn btn-secondary" type="button">Cancel</button>
                                     </a>
