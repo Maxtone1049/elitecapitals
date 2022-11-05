@@ -436,7 +436,7 @@ foreach($results as $row)
         function myswal(e) {
             e.preventDefault();
 
-            swal("NOTICE!", "Please contact the admin on info@elitecapital.online ", "warning");
+            swal("NOTICE!", "Please contact the admin on info@elitecapitalsinvest.online ", "warning");
             console.log('someVarName');
         }
 

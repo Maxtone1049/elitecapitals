@@ -309,7 +309,7 @@ if (strlen($_SESSION['obcsuid'] == 0)) {
         function myswal(e) {
             e.preventDefault();
 
-            swal("NOTICE!", "Please contact the admin on info@elitecapital.online ", "warning");
+            swal("NOTICE!", "Please contact the admin on info@elitecapitalsinvest.online", "warning");
             console.log('someVarName');
         }
     </script>
