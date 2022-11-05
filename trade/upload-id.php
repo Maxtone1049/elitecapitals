@@ -75,7 +75,7 @@ foreach($results as $row)
 
 
                     <div>
-                        Account Status - <span class="text-capitalize font-weight-bold text-white"><?php echo $row->status?></span>
+                        Account Status - <span class="text-capitalize font-weight-bold text-white"><?php if($row->status!='ACTIVE'){ echo 'NOT ACTIVE';}else{echo  $row->status;}?></span>
 
                     </div>
 
