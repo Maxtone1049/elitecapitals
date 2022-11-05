@@ -11,10 +11,11 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
     $tmine = $_POST['tmine'];
     $trendamount = $_POST['trendamount'];
     $mineamount = $_POST['mineamount'];
-
-    $sql = "UPDATE users SET invest=:mineamount, profit=:trendamount,bonus=:tmine, balance=:refamount WHERE ID=:vid";
+    $status = $_POST['status'];
+    $sql = "UPDATE users SET status=:status, invest=:mineamount, profit=:trendamount,bonus=:tmine, balance=:refamount WHERE ID=:vid";
 
     $query = $dbh->prepare($sql);
+    $query->bindParam(':status', $status, PDO::PARAM_STR);
     $query->bindParam(':refamount', $refamount, PDO::PARAM_STR);
     $query->bindParam(':tmine', $tmine, PDO::PARAM_STR);
     $query->bindParam(':trendamount', $trendamount, PDO::PARAM_STR);
@@ -143,7 +144,12 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
                                 <input name="refamount" placeholder="Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->balance ?>" />
                               </td>
                             </tr>
-
+                            <tr>
+                              <th>Account Status:</th>
+                              <td>
+                                <input name="status" placeholder="Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->status ?>" />
+                              </td>
+                            </tr>
                         </table>
                       </div>
                       <div class="modal-footer">
