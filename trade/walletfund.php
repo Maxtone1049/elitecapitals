@@ -14,7 +14,7 @@
                         <div class="tab-content">
                             <div class="tab-pane active" id="home">
                                 <!-- Form Starts -->
-                                <form method="get" action="wallet/fund">
+                                <form method="post" action="">
                                     <input type="hidden" name="_token" value=""> <!-- Input Field Starts -->
                                     <div class="form-group">
                                         <label for="serialNumber">Amount in USD</label>
