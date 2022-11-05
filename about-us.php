@@ -40,7 +40,7 @@
                         <div class="col-sm-9">
                             <div class="header-top-left">
                                 <ul class="info">
-                                    <li><i class="fa fa-envelope" aria-hidden="true"></i> info@elitecapital.online</li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i> info@elitecapitalsinvest.online</li>
                                     <li>
                                         <div id="google_translate_element"></div>
                                     </li>
@@ -315,7 +315,7 @@
                                 <ul class="widget-address">
                                     <li><a href="#"><i class="fa fa-map-marker m-5"></i> 24 Jurong Hill, Singapore</a>
                                     </li>
-                                    <li><a href="#"><i class="fa fa-envelope m-5"></i> info@cryptoperfectoptions.com</a>
+                                    <li><a href="#"><i class="fa fa-envelope m-5"></i> info@elitecapitalsinvest.online</a>
                                     </li>
                                     <li><a href="#"><i class="fa fa-phone m-5"></i> +1 (860) 532-0389</a></li>
                                 </ul>
