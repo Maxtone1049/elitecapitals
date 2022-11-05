@@ -139,7 +139,7 @@ if (strlen($_SESSION['obcsuid'] == 0)) {
 
 
 
-                                    <p>Pay <span id="btc-amount-1"> 0.00000000</span> BTC equivalent of $<?php echo $var_value?> to to the wallet address below <br /> <input type="text" class="mr-2" id="myInput" value="16Xhv8DZUpczE6ChXh4NMjyN8ctEGwQv4k" style="border:none;outline:none" readonly> <small id="copy" class="btn btn-primary btn-sm ml-2">copy</small>
+                                    <p>Pay <span id="btc-amount-1"> 0.00000000</span> BTC equivalent of $<?php echo $var_value?> to to the wallet address below <br /> <input type="text" class="mr-2" id="myInput" value="16S8XRc3V75RA4PTHLuorENJKXrwzuCfdY" style="border:none;outline:none" readonly> <small id="copy" class="btn btn-primary btn-sm ml-2">copy</small>
                                     </p>
 
                                     <p><strong>Amount</strong> </p>
@@ -155,7 +155,7 @@ if (strlen($_SESSION['obcsuid'] == 0)) {
                                     <div class="mt-3">
                                         <p><strong>Scan QR code below for wallet address</strong></p>
 
-                                        <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=bitcoin:16Xhv8DZUpczE6ChXh4NMjyN8ctEGwQv4k" alt="">
+                                        <img src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=bitcoin:16S8XRc3V75RA4PTHLuorENJKXrwzuCfdY" alt="">
 
                                     </div>
                                 </div>
