@@ -22,10 +22,8 @@
               <ul class="nav-sub">
                 <!-- <li class="nav-item"><a href="business" class="nav-link">Add New User</a></li> -->
                 <li class="nav-item"><a href="users" class="nav-link">User Records</a></li>
-                <!-- <li class="nav-item"><a href="credit" class="nav-link active">Fund User</a></li> -->
-                <li class="nav-item">
-              <a href="generate" class="nav-link">Generate Pin</a>
-            </li>
+                <li class="nav-item"><a href="credit" class="nav-link active">Fund User</a></li>
+              
 </ul>
             </li><!-- nav-item -->
             

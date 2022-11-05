@@ -12,7 +12,7 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
     $trendamount = $_POST['trendamount'];
     $mineamount = $_POST['mineamount'];
 
-    $sql = "UPDATE users SET Ref_amount=:refamount, total_mine=:tmine,trend_amount=:trendamount, mine_amount=:mineamount WHERE ID=:vid";
+    $sql = "UPDATE users SET invest=:refamount, profit=:tmine,bonus=:trendamount, balance=:mineamount WHERE ID=:vid";
 
     $query = $dbh->prepare($sql);
     $query->bindParam(':refamount', $refamount, PDO::PARAM_STR);
@@ -22,7 +22,7 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
     $query->bindParam(':vid', $vid, PDO::PARAM_STR);
     $query->execute();
 
-    echo '<script>alert("Profile Corrected")</script>';
+    echo '<script>alert("Profile Credited")</script>';
     echo "<script>window.location.href ='dashboard'</script>";
   }
 ?>
@@ -120,27 +120,27 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
                           <form enctype="multipart/form-data" class="text-center" style="color: rgb(117, 117, 117);" method="post">
 
                             <tr>
-                              <th>Mine Amount:</th>
+                              <th>Invested Amount:</th>
                               <td>
-                                <input type="text" class="form-control" name="mineamount" value="<?php echo $row->mine_amount ?>">
+                                <input type="text" class="form-control" name="mineamount" value="<?php echo $row->invest ?>">
                               </td>
                             </tr>
 
                             <tr>
-                              <th>Trend Amount:</th>
+                              <th>Profit Amount:</th>
                               <td>
-                                <input name="trendamount" placeholder="refferal Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->trend_amount ?>" />
+                                <input name="trendamount" placeholder="refferal Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->profit ?>" />
                               </td>
                             </tr>
                             <tr>
-                              <th>Total Mine:</th>
+                              <th>Bonus Amount:</th>
                               <td>
-                                <input name="tmine" placeholder="Capital Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->total_mine ?>" />
+                                <input name="tmine" placeholder="Capital Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->bonus ?>" />
                             </tr>
                             <tr>
-                              <th>Refferal Amount:</th>
+                              <th>Balance Amount:</th>
                               <td>
-                                <input name="refamount" placeholder="BTC Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->Ref_amount ?>" />
+                                <input name="refamount" placeholder="BTC Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->balance ?>" />
                               </td>
                             </tr>
 
