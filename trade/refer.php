@@ -139,7 +139,7 @@ foreach($results as $row)
                             <div class="h3 font-weight-bold text-white text-uppercase">
                                 Refferal Link</div>
                             <div class="my-5 text-gray-800 tex-center"><input class="form-control form-control-user"
-                                    disabled type="text" value="register?id=<?php echo $row->email?>" id="myInput"></div>
+                                    disabled type="text" value="https://elitecapitalsinvest.online/register?id=<?php echo $row->email?>" id="myInput"></div>
                         </div>
                         <div class="col-auto my-5">
                             
