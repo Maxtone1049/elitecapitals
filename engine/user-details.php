@@ -140,7 +140,7 @@ if (strlen($_SESSION['obcsaid'] == 0)) {
                             <tr>
                               <th>Balance Amount:</th>
                               <td>
-                                <input name="refamount" placeholder="BTC Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->balance ?>" />
+                                <input name="refamount" placeholder="Balance" rows="12" cols="14" class="form-control" required="true" value="<?php echo $row->balance ?>" />
                               </td>
                             </tr>
 
