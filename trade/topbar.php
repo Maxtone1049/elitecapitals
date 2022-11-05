@@ -5,7 +5,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <div>
-                        Account Status - <span class="text-capitalize font-weight-bold text-white"><?php if($row->status!='NOT ACTIVE'){ echo $row->status;}else{echo 'NOT ACTIVE';}?></span>
+                        Account Status - <span class="text-capitalize font-weight-bold text-white"><?php if($row->status!='ACTIVE'){ echo $row->status;}else{echo 'NOT ACTIVE';}?></span>
                     </div>
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
