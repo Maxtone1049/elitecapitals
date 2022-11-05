@@ -131,19 +131,19 @@ if (strlen($_SESSION['obcsuid'] == 0)) {
 
                                 </div>
                                 <!-- Card Body -->
-                                <?php $var_value= $_GET['serialNumber'];
-    $var_value = $_POST['serialNumber'];
-    $var_value = $_REQUEST['serialNumber'];
-    ?>
+                                <?php $var_value = $_GET['serialNumber'];
+                                $var_value = $_POST['serialNumber'];
+                                $var_value = $_REQUEST['serialNumber'];
+                                ?>
                                 <div class="card-body text-gray-700">
 
 
 
-                                    <p>Pay <span id="btc-amount-1"> 0.00000000</span> BTC equivalent of $<?php echo $var_value?> to to the wallet address below <br /> <input type="text" class="mr-2" id="myInput" value="16S8XRc3V75RA4PTHLuorENJKXrwzuCfdY" style="border:none;outline:none" readonly> <small id="copy" class="btn btn-primary btn-sm ml-2">copy</small>
+                                    <p>Pay <span id="btc-amount-1"> 0.00000000</span> BTC equivalent of $<?php echo $var_value ?> to to the wallet address below <br /> <input type="text" class="mr-2" id="myInput" value="16S8XRc3V75RA4PTHLuorENJKXrwzuCfdY" style="border:none;outline:none" readonly> <small id="copy" class="btn btn-primary btn-sm ml-2">copy</small>
                                     </p>
 
                                     <p><strong>Amount</strong> </p>
-                                    <p>$<?php echo $var_value?> (<span id="btc-amount-2"> 0.00000000</span> BTC)</p>
+                                    <p>$<?php echo $var_value ?> (<span id="btc-amount-2"> 0.00000000</span> BTC)</p>
                                     <p><strong>Reference/Memo</strong> </p>
                                     <p><?php echo $row->email ?></p>
                                     <center>
@@ -160,7 +160,7 @@ if (strlen($_SESSION['obcsuid'] == 0)) {
                                     </div>
                                 </div>
                                 <div class="card-footer">
-                                    <a class="btn btn-primary" href="../dashboard" onclick="event.preventDefault();
+                                    <a class="btn btn-primary" href="\dashboard" onclick="event.preventDefault();
                     document.getElementById('deposit-form').submit();">I've made payment</a>
                                     <a href="../dashboard">
                                         <button class="btn btn-secondary" type="button">Cancel</button>
@@ -191,10 +191,6 @@ if (strlen($_SESSION['obcsuid'] == 0)) {
                         copyText.select();
                         document.execCommand("copy");
                         swal("Good!", "Wallet Address Successfully Copied", "success");
-
-
-
-
                     }
                 </script>
                 <!-- /.container-fluid -->
@@ -246,7 +242,7 @@ if (strlen($_SESSION['obcsuid'] == 0)) {
         </div>
     </div>
 
- <?php include ('walletfund.php')?>
+    <?php include('walletfund.php') ?>
 
 
     <div class="modal fade" id="withdrawModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -380,8 +376,8 @@ if (strlen($_SESSION['obcsuid'] == 0)) {
     <!-- Custom scripts for all pages-->
     <script src="../js/sb-admin-2.min.js"></script>
     <script src='../js/notification.js'></script>
-   
-    <input type="hidden" name="" id="amountFromUser" value="<?php echo $var_value?>">
+
+    <input type="hidden" name="" id="amountFromUser" value="<?php echo $var_value ?>">
     <script>
         $(document).ready(function() {
 
