@@ -139,7 +139,7 @@
                         <div class="service-wrapper">
                             <div class="col-md-6">
                                 <div class="service-thumb">
-                                    <img src="img/about/dp.jpg" class="img-responsive center-block" alt="">
+                                    <img src="img/about/logo.png" class="img-responsive center-block" alt="">
                                 </div>
                             </div>
                             <div class="col-md-6">
