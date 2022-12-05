@@ -34,7 +34,7 @@ function googleTranslateElementInit() {
                         <div class="col-sm-9">
                             <div class="header-top-left">
                                 <ul class="info">
-                                    <li><i class="fa fa-envelope" aria-hidden="true"></i> info@elitecapitalsinvest.online</li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i> elitecapitalsinvestmentcompany@gmail.com</li>
                                     <li><div id="google_translate_element"></div></li>
                                     
                                 </ul>
@@ -198,7 +198,7 @@ function checkform() {
                                     <i class="ti-email"></i>
                                 </div>
                                 <h3>Email Us</h3>
-                                <p>info@elitecapitalsinvest.online <br>info@elitecapitalsinvest.online</p>
+                                <p>elitecapitalsinvestmentcompany@gmail.com <br>elitecapitalsinvestmentcompany@gmail.com</p>
                             </div>
                             <div class="address-item">
                                 <div class="address-icon">
@@ -229,8 +229,8 @@ function checkform() {
                                 <p>Elite Capital is an advanced investment platform based in Jurong, Singapore. It was established February 2018. We are strictly into bitcoin mining and investment</p>
                                 <ul class="widget-address">
                                     <li><a href="#"><i class="fa fa-map-marker m-5"></i>  24 Jurong Hill, Singapore</a></li>
-                                    <li><a href="#"><i class="fa fa-envelope m-5"></i> info@elitecapitalsinvest.online</a></li>
-                                    <li><a href="#"><i class="fa fa-phone m-5"></i> +1 (860) 532-0389</a></li>
+                                    <li><a href="#"><i class="fa fa-envelope m-5"></i> elitecapitalsinvestmentcompany@gmail.com</a></li>
+                                    <li><a href="#"><i class="fa fa-phone m-5"></i> +1 (559) 825-3457</a></li>
                                 </ul>
                             </div>
                         </div>
